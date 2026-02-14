@@ -36,27 +36,29 @@ This repository is structured to reflect a real robotic system architecture:
 
 ```
 visionstack-core/
-│
 ├── docs/
 │   ├── theory-notes/
 │   └── project-reports/
-│
+├── configs/            
+├── models/             
 ├── src/
-│   ├── common/
-│   ├── dynamics/
-│   ├── control/
-│   ├── estimation/
-│   ├── planning/
-│   └── rl/
-│
+│   ├── main.py
+│   ├── common/         
+│   ├── dynamics/       
+│   ├── control/        
+│   ├── estimation/     
+│   ├── planning/       
+│   ├── rl/             
+│   └── hardware/
 ├── experiments/
 ├── results/
 │   ├── plots/
 │   └── logs/
-│
 ├── tests/
+├── .gitignore          
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
