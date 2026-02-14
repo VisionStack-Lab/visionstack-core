@@ -46,37 +46,36 @@ Each layer is modular, testable and independently verifiable.
 ```
 visionstack-core/
 ├── docs/
-│   ├── theory-notes/          # Mathematical foundations and conceptual explanations
-│   └── project-reports/       # Technical documentation for each major project
+│   ├── theory-notes/          
+│   └── project-reports/     
 │
-├── configs/                   # Configuration files for reproducible experiments
+├── configs/                   
 │
-├── models/                    # Saved trained models and serialised artefacts
+├── models/                    
 │
 ├── src/
-│   ├── main.py                # System orchestration and execution entry point
+│   ├── main.py                
 │   │
-│   ├── common/                # Shared utilities (plotting, constants, helpers)
+│   ├── common/                
 │   │
-│   ├── dynamics/              # Physical system models (plants)
+│   ├── dynamics/
 │   │
-│   ├── control/               # Controllers (PID, LQR, state feedback, etc.)
+│   ├── control/               
 │   │
-│   ├── estimation/            # Filtering and localisation algorithms
+│   ├── estimation/            
 │   │
-│   ├── planning/              # Path planning and decision algorithms
+│   ├── planning/              
 │   │
-│   ├── rl/                    # Reinforcement learning modules and environments
+│   ├── rl/                    
 │   │
-│   └── hardware/              # Hardware abstraction and deployment interfaces
+│   └── hardware/              
 │
-├── experiments/               # Exploratory scripts and parameter tuning
+├── experiments/               
 │
 ├── results/
-│   ├── plots/                 # Simulation visualisations
-│   └── logs/                  # Experiment logs and outputs
-│
-├── tests/                     # Unit tests and validation scripts
+│   ├── plots/                
+│   └── logs/                  
+├── tests/                    
 │
 ├── .gitignore
 ├── requirements.txt
